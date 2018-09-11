@@ -1,7 +1,7 @@
-<!-- <favourite></favourite> -->
-<input type="text" [(ngModel)]="title">
+<favourite [isFavourite]="post.isFavourite" (change)="onFavoriteChange($event)"></favourite>
+<!-- <input type="text" [(ngModel)]="title">
 <br>
-{{title | titleCase}}
+{{title | titleCase}} -->
 <!-- <h1>Angular</h1> -->
 <!-- <authors></authors> -->
 <!-- <courses></courses> -->
